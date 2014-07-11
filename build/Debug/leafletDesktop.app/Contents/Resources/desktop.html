@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Desktop</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- This CSS allows the map to take up the whole window, with no margins-->
+<style type="text/css">
+html, body, #map {
+	width: 100%;
+	height: 100%;
+    padding:0px;
+    margin: 0px;
+}
+
+</style>
+
+		
+	<!--[if lte IE 8]><link rel="stylesheet" href="leaflet.ie.css" /><![endif]-->
+</head>
+<body>
+	<!-- This determines the size of your output image. It should be the same as your screen resolution, or a multiple. -->
+	<div id="map" style="width: 2048px; height: 1200px; padding:0px; margin: 0px"></div>
+	<p></p>
+    <p>
+        <ul>
+        </ul>
+    </p>
+	<!-- Import loads of support libraries. These are all stored in the same folder. -->
+	
+	<!-- Leaflet is at the core of every decent web-based map. The documentation is excellent. -->
+	<!-- Attribution: http://leafletjs.com -->
+	<link rel="stylesheet" href="leaflet.css" />
+	<script src="leaflet.css"></script>
+	<script src="leaflet051.js"></script>
+	
+  	<!-- mbtiles is used to read the map -->
+  	<!-- Attribution: http://jsfiddle.net/kochizufan/rj4Eh/ -->
+	<script src="mbtiles.min.js"></script>
+
+  	<!-- suncalc is used to move the map according to the sunset time -->
+  	<!-- Attribution: https://github.com/mourner/suncalc -->
+	<script src="suncalc.js"></script>
+  	
+  	<!-- jQuery is used for JSON parsing -->
+  	<!-- Attribution: http://jquery.com/download/ -->
+  	<script src="jquery-1.10.2.min.js"></script>
+  	
+	<!-- Label has loads of libraries. And I still need to add a manual offset! Maybe I can rewrite it better later. -->
+	<!-- Attribution: https://github.com/Leaflet/Leaflet.label -->
+	<script src="label/src/Label.js"></script>
+	<script src="label/src/BaseMarkerMethods.js"></script>
+	<script src="label/src/Marker.Label.js"></script>
+	<script src="label/src/CircleMarker.Label.js"></script>
+	<script src="label/src/Path.Label.js"></script>
+	<script src="label/src/Map.Label.js"></script>
+	<script src="label/src/FeatureGroup.Label.js"></script>
+  
+	<!-- These are not actually scripts, but data. Files opened with file:// URLs have permission to read JS, but not JSON. -->
+	<!-- World3GMaps.js is World3GMaps.mbtiles encoded as base64. -->
+	<!-- World3GMaps.mbtiles is the whole World, zoom level 3, from Google Maps, stored in MBTiles format. -->
+	<!-- It was downloaded using MOBAC: http://mobac.sourceforge.net -->
+	<script src="World3GMaps.js"></script>
+	
+	<!-- night.js is night.json with a simple wrapper function. -->
+	<!-- I generated night.json myself using arc.js: http://dbsgeo.com/arc.js/ -->
+	<script src="night.js"></script>
+	
+	<!-- lived.js and travels.js are lived.json and travels.json with wrapper functions. -->
+	<!-- lived.json and travels.json are personal to me. They are the countries I've lived in, or travelled to. -->
+	<!-- You can make your own by downloading geoJSON countries from: https://github.com/AshKyd/geojson-regions -->
+	<script src="lived.js"></script>
+	<script src="travels.js"></script>
+
+	<script>
+		
+		// I wrote localTime myself, because alternatives required more libraries. 
+		// The offset is a float to account for IST = UTC + 5:30. The IST offset is therefore 5.5. 
+		function localTime(offset) {
+			// Get the UTC time
+			var dateHours = date.getUTCHours();
+			var dateMinutes = date.getUTCMinutes();
+			
+			// Split the offset into hours and minutes
+			var hoursOffset = Math.floor(offset);
+			var minutesOffset = (offset - hoursOffset)*60;
+			
+			// Adjust to the local time
+			var localHours = dateHours+hoursOffset;
+			var localMinutes = dateMinutes+minutesOffset;
+			
+			// If we overshoot an hour, increment the hours and decrement the minutes.
+			if (localMinutes >= 60)
+			{
+				localHours=localHours+1;
+				localMinutes=localMinutes-60;
+			}
+			
+			// Add a leading zero to minutes.
+			if (localMinutes < 10)
+			{
+				localMinutes='0'+localMinutes;
+			}
+			
+			// If we overshoot 24 hours, loop back
+			if (localHours >= 24)
+			{
+				localHours=localHours-24;
+			}
+			
+			// If we undershoot (e.g. PST = UTC - 8), add 24. 
+			if (localHours < 0)
+			{
+				localHours=localHours+24;
+			}
+			
+			// Customise your label here. It can be HTML, so background colours, bold/italic/underline are all allowed. 
+			return '<FONT style="background-color: none; color:black"><b>'+localHours+':'+localMinutes+'</b></font>';
+		}	
+		
+		// Get the current minute of the day as an integer, to calculate the map shift. 
+		var date = new Date();
+        var dateHours = date.getUTCHours();
+        var dateMinutes = date.getUTCMinutes();
+    	var dateInteger = dateHours * 60 + dateMinutes;
+		
+		// Adjust according to equatorial sunset. 
+		var lat = 0;
+		var lng = 0;
+		
+		// Find the sunset time using suncalc. 
+		var times = SunCalc.getTimes(date, lat, lng);
+		var sunsetTime = times.sunset.toUTCString();
+        
+        // Find the sunset minute of the day. 
+        var sunsetDate = new Date(sunsetTime);
+        var sunsetHours = sunsetDate.getUTCHours();
+        var sunsetMinutes = sunsetDate.getUTCMinutes();
+    	var sunsetInteger = sunsetHours * 60 + sunsetMinutes;
+    	
+    	// Calculate the proportion of the day that has passed before sunset. And adjust a bit. 
+    	var dayProportion = dateInteger / sunsetInteger * 360 - 180;    	    	    	
+    	var horizontalShift = Math.round(dayProportion);
+//    	var horizontalShift = 20;
+		
+		// Adjust some more. This makes the map move in the right direction. 
+		// This is also where you can alter your centre point (equatorial sunset, sunrise, fixed longitude). 
+		var centerhorizontalShift = 90 - horizontalShift;
+		
+		// This is where you change the zoom level.
+		var zoomLevel = 3;
+		
+		// Read the map from the linked JS file. 
+		var gmapsString = getMap();
+		var mbt = MBTiles.loadString(gmapsString,
+		//var mbt = MBTiles.load('http://127.0.0.1/maps/World3GMaps.mbtiles',
+		  function(me) 
+		  {
+			// Set the map's centre to longitude,latitude,zoom
+			var centerString = centerhorizontalShift+",0,"+zoomLevel;
+			var centerVal = centerString.split(",");
+			var boundVal  = me.metadata('bounds').split(",");
+			var bounds    = new L.LatLngBounds( new L.LatLng(boundVal[1],boundVal[0]), new L.LatLng(boundVal[3],boundVal[2]) );
+			// var southWest = L.latLng(40.712, -75.227);
+			// var northEast = L.latLng(40.774, -74.125);
+			// bounds = L.latLngBounds(southWest, northEast);
+			// bounds    = new L.LatLngBounds( new L.LatLng(0,0), new L.LatLng(90,90) );
+			// console.log(boundVal);
+			
+			// attribution : ' ' hides the "Powered by leaflet" text. 
+			// continuousWorld: false make the world repeat. 
+			// zoomOffset: 0 must be zero! This caused me a lot of confusion. 
+			var MBLayer = L.TileLayer.extend({
+			  options: {
+				tileSize: 256,
+				tms: true,
+				errorTileUrl: '',
+				attribution: ' ',
+				zoomOffset: 0,
+				opacity: 1,
+				continuousWorld: false,
+				unloadInvisibleTiles: false,
+				updateWhenIdle: true
+			  },
+			  getTileUrl: function (tilePoint) {
+				this._adjustTilePoint(tilePoint);
+				var tile = me.getTileImage(tilePoint.x, tilePoint.y, this._getZoomForUrl());
+				return tile;
+			  }
+			}); 
+    
+    // Create the layer object
+    var MBLayerObj = new MBLayer('dummy',{tms:true});
+    
+    // Add the layer object to Leaflet!
+    // zoomControl:false hides the +/- button on the top left.
+    var map = new L.Map('map',
+      {
+		layers: [MBLayerObj],
+		center: [-5, -90],
+		zoomControl:false
+		//zoom: zoomLevel
+      }
+    );
+	
+    // Don't show the 'Powered by Leaflet' text.
+    map.attributionControl.setPrefix(''); 
+    
+    // This (and the zoom to 3 below) causes the map to zoom out once, then zoom in again. 
+    // It is necessary to ensure that all tiles are loaded. Otherwise strange grey areas appear. 
+    map.invalidateSize();
+    map.setView(new L.LatLng(parseFloat(centerVal[1]),parseFloat(centerVal[0])),2);
+    
+    // Make some time stamp labels!
+    
+    	// Shenzhen, China
+    	// The time zone is CST = UTC + 8
+		var shenzhenString = localTime(8);
+		// The coordinates are [22.556028, 114.021393], where my girlfriend used to live. 
+		// Adjust the "offset: [x, y]" numbers to make the label appear in the right place. It's just trial and error. 
+		var shenzhenCircle = L.circleMarker([22.556028, 114.021393], { fillColor: "#f00", radius: 6 } ).bindLabel(shenzhenString, { noHide: true, opacity: 0.7, direction: 'left', offset: [-5, -30] }).addTo(map);
+		// Add two more labels, one for the map on the left, and one for the map on the right. Note the longitude-360 and +360. 
+		var shenzhenCircleLeft = L.circleMarker([22.556028, 114.021393-360], { fillColor: "#f00", radius: 6 } ).bindLabel(shenzhenString, { noHide: true, opacity: 0.7, direction: 'left', offset: [-5, -50] }).addTo(map);
+		var shenzhenCircleRight = L.circleMarker([22.556028, 114.021393+360], { fillColor: "#f00", radius: 6 } ).bindLabel(shenzhenString, { noHide: true, opacity: 0.7, direction: 'left', offset: [-5, -60] }).addTo(map);
+
+		// Auckland, New Zealand. NZST = UTC + 12
+		var aucklandString = localTime(12);
+		var aucklandCircle = L.circleMarker([-36.853996, 174.856079], { fillColor: "#f00", radius: 6 } ).bindLabel(aucklandString, { noHide: true, opacity: 0.7, direction: 'left', offset: [-40, -80] }).addTo(map);
+		var aucklandCircleLeft = L.circleMarker([-36.853996, 174.856079-360], { fillColor: "#f00", radius: 6 } ).bindLabel(aucklandString, { noHide: true, opacity: 0.7, direction: 'left', offset: [-40, -90] }).addTo(map);
+		var aucklandCircleRight = L.circleMarker([-36.853996, 174.856079+360], { fillColor: "#f00", radius: 6 } ).bindLabel(aucklandString, { noHide: true, opacity: 0.7, direction: 'left', offset: [-50, -110] }).addTo(map);
+		
+		// Pollachi, India. IST = UTC + 5:30
+		var pollachiString = localTime(5.5);
+		var pollachiCircle = L.circleMarker([10.663816, 77.014618], { fillColor: "#f00", radius: 6 } ).bindLabel(pollachiString, { noHide: true, opacity: 0.7, direction: 'left', offset: [-16, -140] }).addTo(map);
+		var pollachiCircleLeft = L.circleMarker([10.663816, 77.014618-360], { fillColor: "#f00", radius: 6 } ).bindLabel(pollachiString, { noHide: true, opacity: 0.7, direction: 'left', offset: [-16, -160] }).addTo(map);
+		var pollachiCircleRight = L.circleMarker([10.663816, 77.014618+360], { fillColor: "#f00", radius: 6 } ).bindLabel(pollachiString, { noHide: true, opacity: 0.7, direction: 'left', offset: [-16, -180] }).addTo(map);
+
+		// Geneva, Switzerland. CET = UTC + 1
+		var genevaString = localTime(1);
+		var genevaCircle = L.circleMarker([46.295921, 6.030410], { fillColor: "#f00", radius: 6 } ).bindLabel(genevaString, { noHide: true, opacity: 0.7, direction: 'left', offset: [0, -190] }).addTo(map);
+		var genevaCircleLeft = L.circleMarker([46.295921, 6.030410-360], { fillColor: "#f00", radius: 6 } ).bindLabel(genevaString, { noHide: true, opacity: 0.7, direction: 'left', offset: [0, 0] }).addTo(map);
+		var genevaCircleRight = L.circleMarker([46.295921, 6.030410+360], { fillColor: "#f00", radius: 6 } ).bindLabel(genevaString, { noHide: true, opacity: 0.7, direction: 'left', offset: [0, -220] }).addTo(map);
+
+		// Vancouver, Canada. PST = UTC - 8
+		var vancouverString = localTime(-8);
+		var vancouverCircle = L.circleMarker([49.284225, -123.114166], { fillColor: "#f00", radius: 6 } ).bindLabel(vancouverString, { noHide: true, opacity: 0.7, direction: 'left', offset: [-40, -240] }).addTo(map);
+		var vancouverCircleLeft = L.circleMarker([(49.284225), (-123.114166-360)], { fillColor: "#f00", radius: 6 } ).bindLabel(vancouverString, { noHide: true, opacity: 0.7, direction: 'left', offset: [0, 0] }).addTo(map);
+		var vancouverCircleRight = L.circleMarker([(49.284225), (-123.114166+360)], { fillColor: "#f00", radius: 6 } ).bindLabel(vancouverString, { noHide: true, opacity: 0.7, direction: 'left', offset: [-40, -270] }).addTo(map);
+
+	// The other half of the zoom in, zoom out to fix grey areas. Happens after adding the labels just to put some delay in. 
+    map.setView(new L.LatLng(parseFloat(centerVal[1]),parseFloat(centerVal[0])),3);
+
+
+	// A little CSS for our polygons. 
+	
+	// Red is used for countries I've lived in.
+	var redStyle = {
+		"color": "#ff3300",
+		"weight": 1,
+		"opacity": 1,
+		"fillOpacity": 0.5
+	};
+
+	// Blue is used for countries I've travelled to on holiday.
+	var blueStyle = {
+		"color": "#3399ff",
+		"weight": 1,
+		"opacity": 1,
+		"fillOpacity": 0.5
+	};
+	
+	// Black is used for night. 
+	var blackStyle = {
+		"color": "#000000",
+		"weight": 1,
+		"opacity": 1,
+		"fillOpacity": 0.5
+	};
+
+	// Read the lived geoJSON
+	var data = jQuery.parseJSON(getLived());
+	
+	// Add it to the map, using the red style
+    var geojson = L.geoJson(data, {
+      style: redStyle,
+      onEachFeature: function (feature, layer) 
+      {
+        layer.bindPopup(feature.properties.name);
+      }
+    });
+    geojson.addTo(map);
+
+
+	// Read the travels geoJSON
+	var data = jQuery.parseJSON(getTravels());
+	
+	// Add it to the map, using the blue style
+    var geojson = L.geoJson(data, {
+      style: blueStyle,
+      onEachFeature: function (feature, layer) 
+      {
+        layer.bindPopup(feature.properties.name);
+      }
+    });
+    geojson.addTo(map);
+
+
+
+	// Adjust the night shift. This could use a lot more work; in its current form, Antarctica is in permanent night. 
+	var nightHorizontalShift = -40 - horizontalShift;
+	var nightVerticalShift = 0;
+
+	// Read the night geoJSON
+	var data = jQuery.parseJSON(getNight());
+	
+  	// Read the original coordinates. We will adjust these for the horizontal and vertical shift. 
+	var originalCoordinates = data.features[0].geometry.coordinates;
+  
+    // For every coordinate
+	for (currentCoordinate = 0; currentCoordinate < originalCoordinates[0].length; currentCoordinate = currentCoordinate + 1)
+	//for (currentCoordinate = 0; currentCoordinate < 4; currentCoordinate = currentCoordinate + 1)
+	{
+		// Get the longitude, increment it by the horizontal shift, and write the new value back to the object. 
+		var thisLongitude = originalCoordinates[0][currentCoordinate][0];
+		var newLongitude = thisLongitude + nightHorizontalShift;
+		originalCoordinates[0][currentCoordinate][0] = newLongitude;
+		
+		// Get the latitude, increment it by the vertical shift, and write the new value back to the object.
+		var thisLatitude = originalCoordinates[0][currentCoordinate][1];
+		var newLatitude = thisLatitude + nightVerticalShift;
+		originalCoordinates[0][currentCoordinate][1] = newLatitude;
+	}
+	  
+	  // Copy the new coordinates to the data object. 
+	  data.features[0].geometry.coordinates = originalCoordinates;
+	
+		// Add the night geoJSON to the map
+		var geojson = L.geoJson(data, {
+		  style: blackStyle,
+		  onEachFeature: function (feature, layer) 
+		  {
+			//alert(feature.geometry.coordinates);
+				
+			layer.bindPopup(feature.geometry.type);
+		  }
+		});
+		geojson.addTo(map);
+	  }
+);
+
+
+	</script>
+</body>
+</html>

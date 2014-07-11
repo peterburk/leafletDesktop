@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D03CDCBD19693778006D855B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03CDCBC19693778006D855B /* Cocoa.framework */; };
+		D03CDCC719693778006D855B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D03CDCC519693778006D855B /* InfoPlist.strings */; };
+		D03CDCC919693778006D855B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D03CDCC819693778006D855B /* main.m */; };
+		D03CDCCD19693778006D855B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D03CDCCB19693778006D855B /* Credits.rtf */; };
+		D03CDCD019693778006D855B /* ptwvAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D03CDCCF19693778006D855B /* ptwvAppDelegate.m */; };
+		D03CDCD319693778006D855B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D03CDCD119693778006D855B /* MainMenu.xib */; };
+		D03CDCD619693778006D855B /* printWebView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D03CDCD419693778006D855B /* printWebView.xcdatamodeld */; };
+		D03CDCE319693981006D855B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03CDCC019693778006D855B /* CoreData.framework */; };
+		D03CDCE5196939BB006D855B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03CDCE4196939BB006D855B /* WebKit.framework */; };
+		D0767D7D196FF7C1007B107D /* LeafletDesktopIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = D0767D7B196FF7C1007B107D /* LeafletDesktopIcon.icns */; };
+		D0767D7E196FF7C1007B107D /* LeafletDesktopIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D0767D7C196FF7C1007B107D /* LeafletDesktopIcon.png */; };
+		D0767D81196FF7CC007B107D /* LeafletDesktopIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = D0767D80196FF7CC007B107D /* LeafletDesktopIcon.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D03CDCB819693778006D855B /* leafletDesktop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leafletDesktop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03CDCBC19693778006D855B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D03CDCBF19693778006D855B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D03CDCC019693778006D855B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D03CDCC119693778006D855B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D03CDCC419693778006D855B /* leafletDesktop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "leafletDesktop-Info.plist"; sourceTree = "<group>"; };
+		D03CDCC619693778006D855B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D03CDCC819693778006D855B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D03CDCCA19693778006D855B /* leafletDesktop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "leafletDesktop-Prefix.pch"; sourceTree = "<group>"; };
+		D03CDCCC19693778006D855B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D03CDCCE19693778006D855B /* ptwvAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ptwvAppDelegate.h; sourceTree = "<group>"; };
+		D03CDCCF19693778006D855B /* ptwvAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ptwvAppDelegate.m; sourceTree = "<group>"; };
+		D03CDCD219693778006D855B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D03CDCD519693778006D855B /* printWebView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = printWebView.xcdatamodel; sourceTree = "<group>"; };
+		D03CDCE4196939BB006D855B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		D0767D7B196FF7C1007B107D /* LeafletDesktopIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = LeafletDesktopIcon.icns; sourceTree = "<group>"; };
+		D0767D7C196FF7C1007B107D /* LeafletDesktopIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LeafletDesktopIcon.png; sourceTree = "<group>"; };
+		D0767D80196FF7CC007B107D /* LeafletDesktopIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = LeafletDesktopIcon.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D03CDCB519693778006D855B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03CDCE5196939BB006D855B /* WebKit.framework in Frameworks */,
+				D03CDCE319693981006D855B /* CoreData.framework in Frameworks */,
+				D03CDCBD19693778006D855B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D03CDCAD19693778006D855B = {
+			isa = PBXGroup;
+			children = (
+				D0767D80196FF7CC007B107D /* LeafletDesktopIcon.icns */,
+				D03CDCE4196939BB006D855B /* WebKit.framework */,
+				D03CDCC219693778006D855B /* printWebView */,
+				D03CDCBB19693778006D855B /* Frameworks */,
+				D03CDCB919693778006D855B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D03CDCB919693778006D855B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D03CDCB819693778006D855B /* leafletDesktop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D03CDCBB19693778006D855B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D03CDCBC19693778006D855B /* Cocoa.framework */,
+				D03CDCBE19693778006D855B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D03CDCBE19693778006D855B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D03CDCBF19693778006D855B /* AppKit.framework */,
+				D03CDCC019693778006D855B /* CoreData.framework */,
+				D03CDCC119693778006D855B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D03CDCC219693778006D855B /* printWebView */ = {
+			isa = PBXGroup;
+			children = (
+				D03CDCCE19693778006D855B /* ptwvAppDelegate.h */,
+				D03CDCCF19693778006D855B /* ptwvAppDelegate.m */,
+				D03CDCD119693778006D855B /* MainMenu.xib */,
+				D03CDCD419693778006D855B /* printWebView.xcdatamodeld */,
+				D03CDCC319693778006D855B /* Supporting Files */,
+			);
+			path = printWebView;
+			sourceTree = "<group>";
+		};
+		D03CDCC319693778006D855B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D03CDCC419693778006D855B /* leafletDesktop-Info.plist */,
+				D03CDCC519693778006D855B /* InfoPlist.strings */,
+				D03CDCC819693778006D855B /* main.m */,
+				D03CDCCA19693778006D855B /* leafletDesktop-Prefix.pch */,
+				D03CDCCB19693778006D855B /* Credits.rtf */,
+				D0767D7B196FF7C1007B107D /* LeafletDesktopIcon.icns */,
+				D0767D7C196FF7C1007B107D /* LeafletDesktopIcon.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D03CDCB719693778006D855B /* leafletDesktop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D03CDCD919693778006D855B /* Build configuration list for PBXNativeTarget "leafletDesktop" */;
+			buildPhases = (
+				D03CDCB419693778006D855B /* Sources */,
+				D03CDCB519693778006D855B /* Frameworks */,
+				D03CDCB619693778006D855B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leafletDesktop;
+			productName = printWebView;
+			productReference = D03CDCB819693778006D855B /* leafletDesktop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D03CDCAF19693778006D855B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ptwv;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Peter Burkimsher";
+			};
+			buildConfigurationList = D03CDCB219693778006D855B /* Build configuration list for PBXProject "leafletDesktop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D03CDCAD19693778006D855B;
+			productRefGroup = D03CDCB919693778006D855B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D03CDCB719693778006D855B /* leafletDesktop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D03CDCB619693778006D855B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03CDCC719693778006D855B /* InfoPlist.strings in Resources */,
+				D03CDCCD19693778006D855B /* Credits.rtf in Resources */,
+				D03CDCD319693778006D855B /* MainMenu.xib in Resources */,
+				D0767D7D196FF7C1007B107D /* LeafletDesktopIcon.icns in Resources */,
+				D0767D7E196FF7C1007B107D /* LeafletDesktopIcon.png in Resources */,
+				D0767D81196FF7CC007B107D /* LeafletDesktopIcon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D03CDCB419693778006D855B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03CDCC919693778006D855B /* main.m in Sources */,
+				D03CDCD019693778006D855B /* ptwvAppDelegate.m in Sources */,
+				D03CDCD619693778006D855B /* printWebView.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D03CDCC519693778006D855B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D03CDCC619693778006D855B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D03CDCCB19693778006D855B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D03CDCCC19693778006D855B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D03CDCD119693778006D855B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D03CDCD219693778006D855B /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D03CDCD719693778006D855B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D03CDCD819693778006D855B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D03CDCDA19693778006D855B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "printWebView/leafletDesktop-Prefix.pch";
+				INFOPLIST_FILE = "printWebView/leafletDesktop-Info.plist";
+				PRODUCT_NAME = leafletDesktop;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D03CDCDB19693778006D855B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "printWebView/leafletDesktop-Prefix.pch";
+				INFOPLIST_FILE = "printWebView/leafletDesktop-Info.plist";
+				PRODUCT_NAME = leafletDesktop;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D03CDCB219693778006D855B /* Build configuration list for PBXProject "leafletDesktop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D03CDCD719693778006D855B /* Debug */,
+				D03CDCD819693778006D855B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D03CDCD919693778006D855B /* Build configuration list for PBXNativeTarget "leafletDesktop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D03CDCDA19693778006D855B /* Debug */,
+				D03CDCDB19693778006D855B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D03CDCD419693778006D855B /* printWebView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D03CDCD519693778006D855B /* printWebView.xcdatamodel */,
+			);
+			currentVersion = D03CDCD519693778006D855B /* printWebView.xcdatamodel */;
+			path = printWebView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D03CDCAF19693778006D855B /* Project object */;
+}

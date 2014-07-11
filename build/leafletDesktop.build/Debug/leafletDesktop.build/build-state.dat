@@ -1,0 +1,701 @@
+TleafletDesktop
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/Debug/leafletDesktop.app/Contents/Info.plist printWebView/leafletDesktop-Info.plist
+cDataModelVersionCompile /Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/Debug/leafletDesktop.app/Contents/Resources/printWebView.momd /Users/peter/bin/System/LeafletDesktop/leafletDesktop/printWebView/printWebView.xcdatamodeld
+cProcessPCH /var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/leafletDesktop-Prefix-dozokksmcpckmnfwtpbpkjippdfn/leafletDesktop-Prefix.pch.pth printWebView/leafletDesktop-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/main.o /Users/peter/bin/System/LeafletDesktop/leafletDesktop/printWebView/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/ptwvAppDelegate.o /Users/peter/bin/System/LeafletDesktop/leafletDesktop/printWebView/ptwvAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/Debug/leafletDesktop.app/Contents/MacOS/leafletDesktop normal x86_64
+cCopyStringsFile /Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/Debug/leafletDesktop.app/Contents/Resources/en.lproj/InfoPlist.strings printWebView/en.lproj/InfoPlist.strings
+cCompileXIB /Users/peter/bin/System/LeafletDesktop/leafletDesktop/printWebView/en.lproj/MainMenu.xib
+cCpResource printWebView/LeafletDesktopIcon.icns build/Debug/leafletDesktop.app/Contents/Resources/LeafletDesktopIcon.icns
+cCpResource LeafletDesktopIcon.icns build/Debug/leafletDesktop.app/Contents/Resources/LeafletDesktopIcon.icns
+cCpResource printWebView/LeafletDesktopIcon.png build/Debug/leafletDesktop.app/Contents/Resources/LeafletDesktopIcon.png
+cCpResource printWebView/en.lproj/Credits.rtf build/Debug/leafletDesktop.app/Contents/Resources/en.lproj/Credits.rtf
+cTouch /Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/Debug/leafletDesktop.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c00000000503F1B7700000000000000AA
+t1346313079
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000005066165700000000000025C8
+t1348867671
+s9672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c000000005066165700000000000001E5
+t1348867671
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c00000000506616570000000000045D30
+t1348867671
+s286000
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/WebKit.framework/WebKit
+c000000005066168E0000000000086934
+t1348867726
+s551220
+
+N/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/Debug/leafletDesktop.app
+t1404646112
+s102
+
+N/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/Info.plist
+t1404639051
+s1517
+
+N/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/MacOS/leafletDesktop
+t1404646093
+s37352
+
+N/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/PkgInfo
+t1404639051
+s8
+
+N/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/Resources/en.lproj/Credits.rtf
+t1404638749
+s436
+
+N/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/Resources/en.lproj/InfoPlist.strings
+t1404638749
+s92
+
+N/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/Resources/en.lproj/MainMenu.nib
+t1404646112
+s29176
+
+N/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/Resources/printWebView.momd
+t1404638748
+s170
+
+N/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/leafletDesktop.LinkFileList
+c0000000053B9161B0000000000000121
+t1404638747
+s289
+
+N/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/main.o
+t1404638748
+s2904
+
+N/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/ptwvAppDelegate.o
+t1404646093
+s80068
+
+N/Users/peter/bin/Google Earth/PrintWebView/printWebView/printWebView/en.lproj/Credits.rtf
+c0000000053B8FFF800000000000001B4
+t1404633080
+s436
+
+N/Users/peter/bin/Google Earth/PrintWebView/printWebView/printWebView/en.lproj/InfoPlist.strings
+c0000000053B8FFF8000000000000002D
+t1404633080
+s45
+
+N/Users/peter/bin/Google Earth/PrintWebView/printWebView/printWebView/en.lproj/MainMenu.xib
+c0000000053B932DD0000000000024EC0
+t1404646109
+s151232
+
+N/Users/peter/bin/Google Earth/PrintWebView/printWebView/printWebView/leafletDesktop-Prefix.pch
+c0000000053B8FFF8000000000000009B
+t1404633080
+s155
+i<Cocoa/Cocoa.h>
+
+N/Users/peter/bin/Google Earth/PrintWebView/printWebView/printWebView/main.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/peter/bin/Google Earth/PrintWebView/printWebView/printWebView/printWebView.xcdatamodeld
+c0000000053B8FFF80000000000000088
+t1404633080
+s136
+
+N/Users/peter/bin/Google Earth/PrintWebView/printWebView/printWebView/ptwvAppDelegate.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/peter/bin/Google Earth/PrintWebView/printWebView/printWebView/ptwvAppDelegate.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/peter/bin/System/LeafletDesktop/leafletDesktop/LeafletDesktopIcon.icns
+c0000000053BFBD980000000000037CE9
+t1405074840
+s228585
+
+N/Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/Debug/leafletDesktop.app
+t1405068590
+s102
+
+N/Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/Debug/leafletDesktop.app/Contents/Info.plist
+t1405068584
+s1517
+
+N/Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/Debug/leafletDesktop.app/Contents/MacOS/leafletDesktop
+t1405068589
+s41704
+
+N/Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/Debug/leafletDesktop.app/Contents/PkgInfo
+t1405068584
+s8
+
+N/Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/Debug/leafletDesktop.app/Contents/Resources/LeafletDesktopIcon.icns
+t1405074840
+s228585
+
+N/Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/Debug/leafletDesktop.app/Contents/Resources/LeafletDesktopIcon.png
+t1405074762
+s87611
+
+N/Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/Debug/leafletDesktop.app/Contents/Resources/en.lproj/Credits.rtf
+t1404646471
+s436
+
+N/Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/Debug/leafletDesktop.app/Contents/Resources/en.lproj/InfoPlist.strings
+t1404646471
+s92
+
+N/Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/Debug/leafletDesktop.app/Contents/Resources/en.lproj/MainMenu.nib
+t1405068590
+s29170
+
+N/Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/Debug/leafletDesktop.app/Contents/Resources/printWebView.momd
+t1404646470
+s170
+
+N/Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/leafletDesktop.LinkFileList
+c0000000053BFC05E000000000000011D
+t1405075550
+s285
+
+N/Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/main.o
+t1405056938
+s2880
+
+N/Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/ptwvAppDelegate.o
+t1405068587
+s85268
+
+N/Users/peter/bin/System/LeafletDesktop/leafletDesktop/printWebView/LeafletDesktopIcon.icns
+c0000000053BFBD980000000000037CE9
+t1405074840
+s228585
+
+N/Users/peter/bin/System/LeafletDesktop/leafletDesktop/printWebView/LeafletDesktopIcon.png
+c0000000053BFBD4A000000000001563B
+t1405074762
+s87611
+
+N/Users/peter/bin/System/LeafletDesktop/leafletDesktop/printWebView/en.lproj/Credits.rtf
+c0000000053B8FFF800000000000001B4
+t1404633080
+s436
+
+N/Users/peter/bin/System/LeafletDesktop/leafletDesktop/printWebView/en.lproj/InfoPlist.strings
+c0000000053B8FFF8000000000000002D
+t1404633080
+s45
+
+N/Users/peter/bin/System/LeafletDesktop/leafletDesktop/printWebView/en.lproj/MainMenu.xib
+c0000000053BFA5260000000000024EBF
+t1405068582
+s151231
+
+N/Users/peter/bin/System/LeafletDesktop/leafletDesktop/printWebView/leafletDesktop-Prefix.pch
+c0000000053B8FFF8000000000000009B
+t1404633080
+s155
+i<Cocoa/Cocoa.h>
+
+N/Users/peter/bin/System/LeafletDesktop/leafletDesktop/printWebView/main.m
+c0000000053B8FFF8000000000000010A
+t1404633080
+s266
+
+N/Users/peter/bin/System/LeafletDesktop/leafletDesktop/printWebView/printWebView.xcdatamodeld
+c0000000053B8FFF80000000000000088
+t1404633080
+s136
+
+N/Users/peter/bin/System/LeafletDesktop/leafletDesktop/printWebView/ptwvAppDelegate.m
+c0000000053BFA5190000000000003B02
+t1405068569
+s15106
+
+N/Users/peter/bin/System/PrintWebView/printWebView/build/Debug/leafletDesktop.app
+t1405068020
+s102
+
+N/Users/peter/bin/System/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/Info.plist
+t1405068013
+s1518
+
+N/Users/peter/bin/System/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/MacOS/leafletDesktop
+t1405068016
+s41704
+
+N/Users/peter/bin/System/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/PkgInfo
+t1405068013
+s8
+
+N/Users/peter/bin/System/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/Resources/en.lproj/Credits.rtf
+t1404646471
+s436
+
+N/Users/peter/bin/System/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/Resources/en.lproj/InfoPlist.strings
+t1404646471
+s92
+
+N/Users/peter/bin/System/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/Resources/en.lproj/MainMenu.nib
+t1405068020
+s29176
+
+N/Users/peter/bin/System/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/Resources/printWebView.momd
+t1404646470
+s170
+
+N/Users/peter/bin/System/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/leafletDesktop.LinkFileList
+c0000000053B933D50000000000000115
+t1404646357
+s277
+
+N/Users/peter/bin/System/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/main.o
+t1405056938
+s2880
+
+N/Users/peter/bin/System/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/ptwvAppDelegate.o
+t1405068015
+s85196
+
+N/Users/peter/bin/System/PrintWebView/printWebView/printWebView/en.lproj/Credits.rtf
+c0000000053B8FFF800000000000001B4
+t1404633080
+s436
+
+N/Users/peter/bin/System/PrintWebView/printWebView/printWebView/en.lproj/InfoPlist.strings
+c0000000053B8FFF8000000000000002D
+t1404633080
+s45
+
+N/Users/peter/bin/System/PrintWebView/printWebView/printWebView/en.lproj/MainMenu.xib
+c0000000053BFA5260000000000024EBF
+t1405068582
+s151231
+
+N/Users/peter/bin/System/PrintWebView/printWebView/printWebView/leafletDesktop-Prefix.pch
+c0000000053B8FFF8000000000000009B
+t1404633080
+s155
+i<Cocoa/Cocoa.h>
+
+N/Users/peter/bin/System/PrintWebView/printWebView/printWebView/main.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/peter/bin/System/PrintWebView/printWebView/printWebView/printWebView.xcdatamodeld
+c0000000053B8FFF80000000000000088
+t1404633080
+s136
+
+N/Users/peter/bin/System/PrintWebView/printWebView/printWebView/ptwvAppDelegate.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/peter/bin/System/PrintWebView/printWebView/printWebView/ptwvAppDelegate.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/leafletDesktop-Prefix-ckbogwjxyuzntpftballkmvlmmwn/leafletDesktop-Prefix.pch.pth
+t1404638748
+s13735668
+
+N/var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/leafletDesktop-Prefix-cnmhzszlckowbybkcekzmojuooqx/leafletDesktop-Prefix.pch.pth
+t1404646358
+s13735612
+
+N/var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/leafletDesktop-Prefix-dozokksmcpckmnfwtpbpkjippdfn/leafletDesktop-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/leafletDesktop-Prefix-gswmgylvqjmcjgblvjalozzgywfe/leafletDesktop-Prefix.pch.pth
+t1405056937
+s13735612
+
+NprintWebView/leafletDesktop-Info.plist
+c0000000053BFC04C00000000000004D5
+t1405075532
+s1237
+
+CBuild AST from "/Users/peter/bin/Google Earth/PrintWebView/printWebView/printWebView/main.m"
+r0
+
+CBuild AST from "/Users/peter/bin/Google Earth/PrintWebView/printWebView/printWebView/ptwvAppDelegate.m"
+r0
+
+CBuild AST from /Users/peter/bin/System/LeafletDesktop/leafletDesktop/printWebView/main.m
+r0
+
+CBuild AST from /Users/peter/bin/System/LeafletDesktop/leafletDesktop/printWebView/ptwvAppDelegate.m
+r0
+
+CBuild AST from /Users/peter/bin/System/PrintWebView/printWebView/printWebView/main.m
+r0
+
+CBuild AST from /Users/peter/bin/System/PrintWebView/printWebView/printWebView/ptwvAppDelegate.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies6abe5adef76fb941^392782def76fb941^-177"Warning: Multiple build commands for output file /Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/Debug/leafletDesktop.app/Contents/Resources/LeafletDesktopIcon.icns1(21%IDEActivityLogMessage2@176"Warning: Multiple build commands for output file /Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/Debug/leafletDesktop.app/Contents/Resources/LeafletDesktopIcon.icns-426768350#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--0#1#0#--18"Check dependencies36"25582E1E-9EEA-4645-AB85-A1DD3A0AA2FB-
+
+CCompileC build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/main.o "/Users/peter/bin/Google Earth/PrintWebView/printWebView/printWebView/main.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426331548.668966
+e426331548.703511
+r1
+xCompileC
+xbuild/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/main.o
+x/Users/peter/bin/Google Earth/PrintWebView/printWebView/printWebView/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/peter/bin/Google Earth/PrintWebView/printWebView/printWebView/main.mcf68ab9c4d69b941^b119b49c4d69b941^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/peter/bin/Google%20Earth/PrintWebView/printWebView/printWebView/main.m0000000000000000^3462"CompileC build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/main.o printWebView/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/peter/bin/Google Earth/PrintWebView/printWebView"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/leafletDesktop-generated-files.hmap" "-I/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/leafletDesktop-own-target-headers.hmap" "-I/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/leafletDesktop-all-target-headers.hmap" -iquote "/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/leafletDesktop-project-headers.hmap" "-I/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/DerivedSources/x86_64" "-I/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/DerivedSources" "-F/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/Debug" -include /var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/leafletDesktop-Prefix-ckbogwjxyuzntpftballkmvlmmwn/leafletDesktop-Prefix.pch -MMD -MT dependencies -MF "/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/main.d" --serialize-diagnostics "/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/main.dia" -c "/Users/peter/bin/Google Earth/PrintWebView/printWebView/printWebView/main.m" -o "/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/main.o"36"98E5D561-84AB-4C91-844E-B474867D66AD-
+
+CCompileC build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/main.o /Users/peter/bin/System/LeafletDesktop/leafletDesktop/printWebView/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426768351.924855
+e426768352.249650
+r1
+xCompileC
+xbuild/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/main.o
+x/Users/peter/bin/System/LeafletDesktop/leafletDesktop/printWebView/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/peter/bin/System/LeafletDesktop/leafletDesktop/printWebView/main.mddefecdff76fb941^6ceb3fe0f76fb941^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/peter/bin/System/LeafletDesktop/leafletDesktop/printWebView/main.m0000000000000000^3410"CompileC build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/main.o printWebView/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/peter/bin/System/LeafletDesktop/leafletDesktop    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/leafletDesktop.build/Debug/leafletDesktop.build/leafletDesktop-generated-files.hmap -I/Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/leafletDesktop.build/Debug/leafletDesktop.build/leafletDesktop-own-target-headers.hmap -I/Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/leafletDesktop.build/Debug/leafletDesktop.build/leafletDesktop-all-target-headers.hmap -iquote /Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/leafletDesktop.build/Debug/leafletDesktop.build/leafletDesktop-project-headers.hmap -I/Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/leafletDesktop.build/Debug/leafletDesktop.build/DerivedSources/x86_64 -I/Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/leafletDesktop.build/Debug/leafletDesktop.build/DerivedSources -F/Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/Debug -include /var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/leafletDesktop-Prefix-dozokksmcpckmnfwtpbpkjippdfn/leafletDesktop-Prefix.pch -MMD -MT dependencies -MF /Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/main.dia -c /Users/peter/bin/System/LeafletDesktop/leafletDesktop/printWebView/main.m -o /Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/main.o36"2C294F78-F704-4FFB-BA3B-929E31B60D9F-
+
+CCompileC build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/main.o /Users/peter/bin/System/PrintWebView/printWebView/printWebView/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426749737.731582
+e426749738.072927
+r1
+xCompileC
+xbuild/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/main.o
+x/Users/peter/bin/System/PrintWebView/printWebView/printWebView/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/peter/bin/System/PrintWebView/printWebView/printWebView/main.ma472bb29af6fb941^00ac122aaf6fb941^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/peter/bin/System/PrintWebView/printWebView/printWebView/main.m0000000000000000^3358"CompileC build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/main.o printWebView/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/peter/bin/System/PrintWebView/printWebView    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/peter/bin/System/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/leafletDesktop-generated-files.hmap -I/Users/peter/bin/System/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/leafletDesktop-own-target-headers.hmap -I/Users/peter/bin/System/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/leafletDesktop-all-target-headers.hmap -iquote /Users/peter/bin/System/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/leafletDesktop-project-headers.hmap -I/Users/peter/bin/System/PrintWebView/printWebView/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/peter/bin/System/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/DerivedSources/x86_64 -I/Users/peter/bin/System/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/DerivedSources -F/Users/peter/bin/System/PrintWebView/printWebView/build/Debug -include /var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/leafletDesktop-Prefix-gswmgylvqjmcjgblvjalozzgywfe/leafletDesktop-Prefix.pch -MMD -MT dependencies -MF /Users/peter/bin/System/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/peter/bin/System/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/main.dia -c /Users/peter/bin/System/PrintWebView/printWebView/printWebView/main.m -o /Users/peter/bin/System/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/main.o36"30907D10-37BC-4B6D-A2DD-B5C7DB832CED-
+
+CCompileC build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/ptwvAppDelegate.o "/Users/peter/bin/Google Earth/PrintWebView/printWebView/printWebView/ptwvAppDelegate.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426339007.339236
+e426339008.137503
+r1
+xCompileC
+xbuild/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/ptwvAppDelegate.o
+x/Users/peter/bin/Google Earth/PrintWebView/printWebView/printWebView/ptwvAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/peter/bin/Google Earth/PrintWebView/printWebView/printWebView/ptwvAppDelegate.m:127:6: warning: 'setShowPanels:' is deprecated [-Wdeprecated-declarations]
+o    [printOp setShowPanels:NO];
+o     ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSPrintOperation.h:157:1: note: method 'setShowPanels:' declared here
+o- (void)setShowPanels:(BOOL)flag NS_DEPRECATED_MAC(10_0, 10_4);
+o^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/peter/bin/Google Earth/PrintWebView/printWebView/printWebView/ptwvAppDelegate.m63f256bf6a69b941^593223c06a69b941^-508"/Users/peter/bin/Google Earth/PrintWebView/printWebView/printWebView/ptwvAppDelegate.m:127:6: warning: 'setShowPanels:' is deprecated [-Wdeprecated-declarations]    [printOp setShowPanels:NO];     ^/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSPrintOperation.h:157:1: note: method 'setShowPanels:' declared here- (void)setShowPanels:(BOOL)flag NS_DEPRECATED_MAC(10_0, 10_4);^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@30"'setShowPanels:' is deprecated-426339008#18446744073709551615#0#1(2@37"Method 'setShowPanels:' declared here-426339008#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@184"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSPrintOperation.h0000000000000000^156#0#156#0#8200#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@104"file://localhost/Users/peter/bin/Google%20Earth/PrintWebView/printWebView/printWebView/ptwvAppDelegate.m0000000000000000^126#5#126#5#4254#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@104"file://localhost/Users/peter/bin/Google%20Earth/PrintWebView/printWebView/printWebView/ptwvAppDelegate.m0000000000000000^3528"CompileC build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/ptwvAppDelegate.o printWebView/ptwvAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/peter/bin/Google Earth/PrintWebView/printWebView"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/leafletDesktop-generated-files.hmap" "-I/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/leafletDesktop-own-target-headers.hmap" "-I/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/leafletDesktop-all-target-headers.hmap" -iquote "/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/leafletDesktop-project-headers.hmap" "-I/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/DerivedSources/x86_64" "-I/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/DerivedSources" "-F/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/Debug" -include /var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/leafletDesktop-Prefix-ckbogwjxyuzntpftballkmvlmmwn/leafletDesktop-Prefix.pch -MMD -MT dependencies -MF "/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/ptwvAppDelegate.d" --serialize-diagnostics "/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/ptwvAppDelegate.dia" -c "/Users/peter/bin/Google Earth/PrintWebView/printWebView/printWebView/ptwvAppDelegate.m" -o "/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/ptwvAppDelegate.o"36"089D0186-F63D-4B6F-84B9-129033481E24-
+
+CCompileC build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/ptwvAppDelegate.o /Users/peter/bin/System/LeafletDesktop/leafletDesktop/printWebView/ptwvAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426768351.924878
+e426768352.485268
+r1
+xCompileC
+xbuild/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/ptwvAppDelegate.o
+x/Users/peter/bin/System/LeafletDesktop/leafletDesktop/printWebView/ptwvAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/peter/bin/System/LeafletDesktop/leafletDesktop/printWebView/ptwvAppDelegate.m:83:6: warning: 'movePath:toPath:handler:' is deprecated [-Wdeprecated-declarations]
+o    [[NSFileManager defaultManager] movePath:oldPath toPath:newPath handler:nil];
+o     ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:177:1: note: method 'movePath:toPath:handler:' declared here
+o- (BOOL)movePath:(NSString *)src toPath:(NSString *)dest handler:(id)handler NS_DEPRECATED(10_0, 10_5, 2_0, 2_0);
+o^
+o/Users/peter/bin/System/LeafletDesktop/leafletDesktop/printWebView/ptwvAppDelegate.m:241:6: warning: 'setShowPanels:' is deprecated [-Wdeprecated-declarations]
+o    [printOp setShowPanels:NO];
+o     ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSPrintOperation.h:157:1: note: method 'setShowPanels:' declared here
+o- (void)setShowPanels:(BOOL)flag NS_DEPRECATED_MAC(10_0, 10_4);
+o^
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/peter/bin/System/LeafletDesktop/leafletDesktop/printWebView/ptwvAppDelegate.m35ebecdff76fb941^3a3c7ce0f76fb941^-1112"/Users/peter/bin/System/LeafletDesktop/leafletDesktop/printWebView/ptwvAppDelegate.m:83:6: warning: 'movePath:toPath:handler:' is deprecated [-Wdeprecated-declarations]    [[NSFileManager defaultManager] movePath:oldPath toPath:newPath handler:nil];     ^/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:177:1: note: method 'movePath:toPath:handler:' declared here- (BOOL)movePath:(NSString *)src toPath:(NSString *)dest handler:(id)handler NS_DEPRECATED(10_0, 10_5, 2_0, 2_0);^/Users/peter/bin/System/LeafletDesktop/leafletDesktop/printWebView/ptwvAppDelegate.m:241:6: warning: 'setShowPanels:' is deprecated [-Wdeprecated-declarations]    [printOp setShowPanels:NO];     ^/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSPrintOperation.h:157:1: note: method 'setShowPanels:' declared here- (void)setShowPanels:(BOOL)flag NS_DEPRECATED_MAC(10_0, 10_4);^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@40"'movePath:toPath:handler:' is deprecated-426768352#18446744073709551615#0#1(2@47"Method 'movePath:toPath:handler:' declared here-426768352#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@185"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h0000000000000000^176#0#176#0#14889#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@100"file://localhost/Users/peter/bin/System/LeafletDesktop/leafletDesktop/printWebView/ptwvAppDelegate.m0000000000000000^82#5#82#5#2614#0#12"Deprecations--2@30"'setShowPanels:' is deprecated-426768352#18446744073709551615#0#1(2@37"Method 'setShowPanels:' declared here-426768352#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@184"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSPrintOperation.h0000000000000000^156#0#156#0#8200#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@100"file://localhost/Users/peter/bin/System/LeafletDesktop/leafletDesktop/printWebView/ptwvAppDelegate.m0000000000000000^240#5#240#5#7872#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@100"file://localhost/Users/peter/bin/System/LeafletDesktop/leafletDesktop/printWebView/ptwvAppDelegate.m0000000000000000^3476"CompileC build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/ptwvAppDelegate.o printWebView/ptwvAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/peter/bin/System/LeafletDesktop/leafletDesktop    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/leafletDesktop.build/Debug/leafletDesktop.build/leafletDesktop-generated-files.hmap -I/Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/leafletDesktop.build/Debug/leafletDesktop.build/leafletDesktop-own-target-headers.hmap -I/Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/leafletDesktop.build/Debug/leafletDesktop.build/leafletDesktop-all-target-headers.hmap -iquote /Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/leafletDesktop.build/Debug/leafletDesktop.build/leafletDesktop-project-headers.hmap -I/Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/leafletDesktop.build/Debug/leafletDesktop.build/DerivedSources/x86_64 -I/Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/leafletDesktop.build/Debug/leafletDesktop.build/DerivedSources -F/Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/Debug -include /var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/leafletDesktop-Prefix-dozokksmcpckmnfwtpbpkjippdfn/leafletDesktop-Prefix.pch -MMD -MT dependencies -MF /Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/ptwvAppDelegate.d --serialize-diagnostics /Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/ptwvAppDelegate.dia -c /Users/peter/bin/System/LeafletDesktop/leafletDesktop/printWebView/ptwvAppDelegate.m -o /Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/ptwvAppDelegate.o36"CD39E4A4-294C-44A0-9CCB-79139328D30F-
+
+CCompileC build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/ptwvAppDelegate.o /Users/peter/bin/System/PrintWebView/printWebView/printWebView/ptwvAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426761384.985333
+e426761387.351638
+r1
+xCompileC
+xbuild/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/ptwvAppDelegate.o
+x/Users/peter/bin/System/PrintWebView/printWebView/printWebView/ptwvAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/peter/bin/System/PrintWebView/printWebView/printWebView/ptwvAppDelegate.m:83:6: warning: 'movePath:toPath:handler:' is deprecated [-Wdeprecated-declarations]
+o    [[NSFileManager defaultManager] movePath:oldPath toPath:newPath handler:nil];
+o     ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:177:1: note: method 'movePath:toPath:handler:' declared here
+o- (BOOL)movePath:(NSString *)src toPath:(NSString *)dest handler:(id)handler NS_DEPRECATED(10_0, 10_5, 2_0, 2_0);
+o^
+o/Users/peter/bin/System/PrintWebView/printWebView/printWebView/ptwvAppDelegate.m:241:6: warning: 'setShowPanels:' is deprecated [-Wdeprecated-declarations]
+o    [printOp setShowPanels:NO];
+o     ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSPrintOperation.h:157:1: note: method 'setShowPanels:' declared here
+o- (void)setShowPanels:(BOOL)flag NS_DEPRECATED_MAC(10_0, 10_4);
+o^
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/peter/bin/System/PrintWebView/printWebView/printWebView/ptwvAppDelegate.md3a3fda8dc6fb941^3a045aabdc6fb941^-1104"/Users/peter/bin/System/PrintWebView/printWebView/printWebView/ptwvAppDelegate.m:83:6: warning: 'movePath:toPath:handler:' is deprecated [-Wdeprecated-declarations]    [[NSFileManager defaultManager] movePath:oldPath toPath:newPath handler:nil];     ^/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:177:1: note: method 'movePath:toPath:handler:' declared here- (BOOL)movePath:(NSString *)src toPath:(NSString *)dest handler:(id)handler NS_DEPRECATED(10_0, 10_5, 2_0, 2_0);^/Users/peter/bin/System/PrintWebView/printWebView/printWebView/ptwvAppDelegate.m:241:6: warning: 'setShowPanels:' is deprecated [-Wdeprecated-declarations]    [printOp setShowPanels:NO];     ^/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSPrintOperation.h:157:1: note: method 'setShowPanels:' declared here- (void)setShowPanels:(BOOL)flag NS_DEPRECATED_MAC(10_0, 10_4);^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@40"'movePath:toPath:handler:' is deprecated-426761387#18446744073709551615#0#1(2@47"Method 'movePath:toPath:handler:' declared here-426761387#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@185"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h0000000000000000^176#0#176#0#14889#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@96"file://localhost/Users/peter/bin/System/PrintWebView/printWebView/printWebView/ptwvAppDelegate.m0000000000000000^82#5#82#5#2614#0#12"Deprecations--2@30"'setShowPanels:' is deprecated-426761387#18446744073709551615#0#1(2@37"Method 'setShowPanels:' declared here-426761387#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@184"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSPrintOperation.h0000000000000000^156#0#156#0#8200#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@96"file://localhost/Users/peter/bin/System/PrintWebView/printWebView/printWebView/ptwvAppDelegate.m0000000000000000^240#5#240#5#7872#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@96"file://localhost/Users/peter/bin/System/PrintWebView/printWebView/printWebView/ptwvAppDelegate.m0000000000000000^3424"CompileC build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/ptwvAppDelegate.o printWebView/ptwvAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/peter/bin/System/PrintWebView/printWebView    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/peter/bin/System/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/leafletDesktop-generated-files.hmap -I/Users/peter/bin/System/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/leafletDesktop-own-target-headers.hmap -I/Users/peter/bin/System/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/leafletDesktop-all-target-headers.hmap -iquote /Users/peter/bin/System/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/leafletDesktop-project-headers.hmap -I/Users/peter/bin/System/PrintWebView/printWebView/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/peter/bin/System/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/DerivedSources/x86_64 -I/Users/peter/bin/System/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/DerivedSources -F/Users/peter/bin/System/PrintWebView/printWebView/build/Debug -include /var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/leafletDesktop-Prefix-gswmgylvqjmcjgblvjalozzgywfe/leafletDesktop-Prefix.pch -MMD -MT dependencies -MF /Users/peter/bin/System/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/ptwvAppDelegate.d --serialize-diagnostics /Users/peter/bin/System/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/ptwvAppDelegate.dia -c /Users/peter/bin/System/PrintWebView/printWebView/printWebView/ptwvAppDelegate.m -o /Users/peter/bin/System/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/ptwvAppDelegate.o36"BDE8ADA5-B9CD-44EA-A2DA-1850F9619CC0-
+
+CCompileXIB "/Users/peter/bin/Google Earth/PrintWebView/printWebView/printWebView/en.lproj/MainMenu.xib"
+s426338912.111870
+e426338912.719457
+r1
+xCompileXIB
+x/Users/peter/bin/Google Earth/PrintWebView/printWebView/printWebView/en.lproj/MainMenu.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/peter/bin/Google Earth/PrintWebView/printWebView/printWebView/en.lproj/MainMenu.xib:371: warning: Content rectangle not entirely on screen with the menu bar (May not be completely visible for all screen resolutions and configurations) [9]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compiling /Users/peter/bin/Google Earth/PrintWebView/printWebView/printWebView/en.lproj/MainMenu.xibc8b21c606a69b941^dc2eb8606a69b941^-40"/* com.apple.ibtool.document.warnings */1(21%IDEActivityLogMessage2@136"Content rectangle not entirely on screen with the menu bar (May not be completely visible for all screen resolutions and configurations)58"Content rectangle not entirely on screen with the menu bar426338912#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@108"file://localhost/Users/peter/bin/Google%20Earth/PrintWebView/printWebView/printWebView/en.lproj/MainMenu.xib0000000000000000^370#18446744073709551615#370#18446744073709551615#18446744073709551615#0#25"Unsupported Configuration--0#0#0#-19%DVTDocumentLocation4@108"file://localhost/Users/peter/bin/Google%20Earth/PrintWebView/printWebView/printWebView/en.lproj/MainMenu.xib0000000000000000^667"CompileXIB printWebView/en.lproj/MainMenu.xib    cd "/Users/peter/bin/Google Earth/PrintWebView/printWebView"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/Resources/en.lproj/MainMenu.nib" "/Users/peter/bin/Google Earth/PrintWebView/printWebView/printWebView/en.lproj/MainMenu.xib" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk36"8A6F2A9E-B318-4531-A529-A53AD67C3255-
+
+CCompileXIB /Users/peter/bin/System/LeafletDesktop/leafletDesktop/printWebView/en.lproj/MainMenu.xib
+r0
+
+CCompileXIB /Users/peter/bin/System/PrintWebView/printWebView/printWebView/en.lproj/MainMenu.xib
+s426761389.285249
+e426761390.656866
+r1
+xCompileXIB
+x/Users/peter/bin/System/PrintWebView/printWebView/printWebView/en.lproj/MainMenu.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/peter/bin/System/PrintWebView/printWebView/printWebView/en.lproj/MainMenu.xib:371: warning: Content rectangle not entirely on screen with the menu bar (May not be completely visible for all screen resolutions and configurations) [9]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compiling /Users/peter/bin/System/PrintWebView/printWebView/printWebView/en.lproj/MainMenu.xib121649addc6fb941^6b29a8aedc6fb941^-40"/* com.apple.ibtool.document.warnings */1(21%IDEActivityLogMessage2@136"Content rectangle not entirely on screen with the menu bar (May not be completely visible for all screen resolutions and configurations)58"Content rectangle not entirely on screen with the menu bar426761390#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@100"file://localhost/Users/peter/bin/System/PrintWebView/printWebView/printWebView/en.lproj/MainMenu.xib0000000000000000^370#18446744073709551615#370#18446744073709551615#18446744073709551615#0#25"Unsupported Configuration--0#0#0#-19%DVTDocumentLocation4@100"file://localhost/Users/peter/bin/System/PrintWebView/printWebView/printWebView/en.lproj/MainMenu.xib0000000000000000^643"CompileXIB printWebView/en.lproj/MainMenu.xib    cd /Users/peter/bin/System/PrintWebView/printWebView    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/peter/bin/System/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/Resources/en.lproj/MainMenu.nib /Users/peter/bin/System/PrintWebView/printWebView/printWebView/en.lproj/MainMenu.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk36"FA82CA0C-80E9-4886-BC5D-D72738216C08-
+
+CCopyStringsFile "/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/Resources/en.lproj/InfoPlist.strings" printWebView/en.lproj/InfoPlist.strings
+s426331549.389015
+e426331549.425645
+r1
+xCopyStringsFile
+x/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/Resources/en.lproj/InfoPlist.strings
+xprintWebView/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy printWebView/en.lproj/InfoPlist.strings577c679d4d69b941^34f76c9d4d69b941^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/peter/bin/Google%20Earth/PrintWebView/printWebView/printWebView/en.lproj/InfoPlist.strings0000000000000000^448"CopyStringsFile build/Debug/leafletDesktop.app/Contents/Resources/en.lproj/InfoPlist.strings printWebView/en.lproj/InfoPlist.strings    cd "/Users/peter/bin/Google Earth/PrintWebView/printWebView"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir "/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/Resources/en.lproj" -- printWebView/en.lproj/InfoPlist.strings36"7E1F228E-BA8A-4616-9EFE-1B3C54B2A5D9-
+
+CCopyStringsFile /Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/Debug/leafletDesktop.app/Contents/Resources/en.lproj/InfoPlist.strings printWebView/en.lproj/InfoPlist.strings
+r0
+
+CCopyStringsFile /Users/peter/bin/System/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/Resources/en.lproj/InfoPlist.strings printWebView/en.lproj/InfoPlist.strings
+s426339270.978511
+e426339271.125548
+r1
+xCopyStringsFile
+x/Users/peter/bin/System/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/Resources/en.lproj/InfoPlist.strings
+xprintWebView/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy printWebView/en.lproj/InfoPlist.strings33fc03c76b69b941^742320c76b69b941^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/peter/bin/System/PrintWebView/printWebView/printWebView/en.lproj/InfoPlist.strings0000000000000000^432"CopyStringsFile build/Debug/leafletDesktop.app/Contents/Resources/en.lproj/InfoPlist.strings printWebView/en.lproj/InfoPlist.strings    cd /Users/peter/bin/System/PrintWebView/printWebView    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/peter/bin/System/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/Resources/en.lproj -- printWebView/en.lproj/InfoPlist.strings36"78A89576-402D-46E5-9CED-6F11E99ED903-
+
+CCpResource LeafletDesktopIcon.icns build/Debug/leafletDesktop.app/Contents/Resources/LeafletDesktopIcon.icns
+r0
+
+CCpResource printWebView/LeafletDesktopIcon.icns build/Debug/leafletDesktop.app/Contents/Resources/LeafletDesktopIcon.icns
+r0
+
+CCpResource printWebView/LeafletDesktopIcon.png build/Debug/leafletDesktop.app/Contents/Resources/LeafletDesktopIcon.png
+r0
+
+CCpResource printWebView/en.lproj/Credits.rtf build/Debug/leafletDesktop.app/Contents/Resources/en.lproj/Credits.rtf
+s426339270.978490
+e426339271.087372
+r1
+xCpResource
+xprintWebView/en.lproj/Credits.rtf
+xbuild/Debug/leafletDesktop.app/Contents/Resources/en.lproj/Credits.rtf
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Copy build/Debug/leafletDesktop.app/Contents/Resources/en.lproj/Credits.rtf76fc03c76b69b941^abb21fc76b69b941^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/peter/bin/System/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/Resources/en.lproj/Credits.rtf000000000080d041^478"CpResource printWebView/en.lproj/Credits.rtf build/Debug/leafletDesktop.app/Contents/Resources/en.lproj/Credits.rtf    cd /Users/peter/bin/System/PrintWebView/printWebView    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/peter/bin/System/PrintWebView/printWebView/printWebView/en.lproj/Credits.rtf /Users/peter/bin/System/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/Resources/en.lproj36"81E7C7B3-A165-4E1E-A38A-5FBD69B8CD3B-
+
+CDataModelVersionCompile "/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/Resources/printWebView.momd" "/Users/peter/bin/Google Earth/PrintWebView/printWebView/printWebView/printWebView.xcdatamodeld"
+s426331547.457798
+e426331548.265232
+r1
+xDataModelVersionCompile
+x/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/Resources/printWebView.momd
+x/Users/peter/bin/Google Earth/PrintWebView/printWebView/printWebView/printWebView.xcdatamodeld
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"DataModelVersionCompile build/Debug/leafletDesktop.app/Contents/Resources/printWebView.momd printWebView/printWebView.xcdatamodeld2041759b4d69b941^c9e5439c4d69b941^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/peter/bin/Google%20Earth/PrintWebView/printWebView/printWebView/printWebView.xcdatamodeld/0000000000000000^647"DataModelVersionCompile build/Debug/leafletDesktop.app/Contents/Resources/printWebView.momd printWebView/printWebView.xcdatamodeld    cd "/Users/peter/bin/Google Earth/PrintWebView/printWebView"    /Applications/Xcode.app/Contents/Developer/usr/bin/momc -XD_MOMC_SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -MOMC_PLATFORMS macosx -XD_MOMC_TARGET_VERSION=10.8 "/Users/peter/bin/Google Earth/PrintWebView/printWebView/printWebView/printWebView.xcdatamodeld" "/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/Resources/printWebView.momd"36"1218549A-A830-46C2-8748-F1324CFC6F61-
+
+CDataModelVersionCompile /Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/Debug/leafletDesktop.app/Contents/Resources/printWebView.momd /Users/peter/bin/System/LeafletDesktop/leafletDesktop/printWebView/printWebView.xcdatamodeld
+r0
+
+CDataModelVersionCompile /Users/peter/bin/System/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/Resources/printWebView.momd /Users/peter/bin/System/PrintWebView/printWebView/printWebView/printWebView.xcdatamodeld
+s426339270.391567
+e426339270.970467
+r1
+xDataModelVersionCompile
+x/Users/peter/bin/System/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/Resources/printWebView.momd
+x/Users/peter/bin/System/PrintWebView/printWebView/printWebView/printWebView.xcdatamodeld
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"DataModelVersionCompile build/Debug/leafletDesktop.app/Contents/Resources/printWebView.momd printWebView/printWebView.xcdatamodelda94d64c66b69b941^6d9005c76b69b941^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/peter/bin/System/PrintWebView/printWebView/printWebView/printWebView.xcdatamodeld/0000000000000000^623"DataModelVersionCompile build/Debug/leafletDesktop.app/Contents/Resources/printWebView.momd printWebView/printWebView.xcdatamodeld    cd /Users/peter/bin/System/PrintWebView/printWebView    /Applications/Xcode.app/Contents/Developer/usr/bin/momc -XD_MOMC_SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -MOMC_PLATFORMS macosx -XD_MOMC_TARGET_VERSION=10.8 /Users/peter/bin/System/PrintWebView/printWebView/printWebView/printWebView.xcdatamodeld /Users/peter/bin/System/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/Resources/printWebView.momd36"A2378A6D-08FF-4239-92E6-C0F911A8BBEB-
+
+CLd "/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/MacOS/leafletDesktop" normal x86_64
+s426339008.144449
+e426339008.388739
+r1
+xLd
+x/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/MacOS/leafletDesktop
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Link /Users/peter/bin/Google Earth/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/MacOS/leafletDesktop6f0c25c06a69b941^ec8463c06a69b941^---0#0#0#--953"Ld build/Debug/leafletDesktop.app/Contents/MacOS/leafletDesktop normal x86_64    cd "/Users/peter/bin/Google Earth/PrintWebView/printWebView"    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk "-L/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/Debug" "-F/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/Debug" -filelist "/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/leafletDesktop.LinkFileList" -mmacosx-version-min=10.8 -fobjc-arc -fobjc-link-runtime -framework WebKit -framework CoreData -framework Cocoa -o "/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/MacOS/leafletDesktop"36"8968028D-F50F-4393-B1F8-6091459E6A10-
+
+CLd /Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/Debug/leafletDesktop.app/Contents/MacOS/leafletDesktop normal x86_64
+s426768352.492257
+e426768353.395552
+r1
+xLd
+x/Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/Debug/leafletDesktop.app/Contents/MacOS/leafletDesktop
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Link /Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/Debug/leafletDesktop.app/Contents/MacOS/leafletDesktop76197ee0f76fb941^bf4365e1f76fb941^---0#0#0#--933"Ld build/Debug/leafletDesktop.app/Contents/MacOS/leafletDesktop normal x86_64    cd /Users/peter/bin/System/LeafletDesktop/leafletDesktop    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/Debug -F/Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/Debug -filelist /Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/leafletDesktop.LinkFileList -mmacosx-version-min=10.8 -fobjc-arc -fobjc-link-runtime -framework WebKit -framework CoreData -framework Cocoa -o /Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/Debug/leafletDesktop.app/Contents/MacOS/leafletDesktop36"AE4A0987-3D5A-42F9-A3AF-CB774382C0EA-
+
+CLd /Users/peter/bin/System/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/MacOS/leafletDesktop normal x86_64
+s426761387.358677
+e426761389.277242
+r1
+xLd
+x/Users/peter/bin/System/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/MacOS/leafletDesktop
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Link /Users/peter/bin/System/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/MacOS/leafletDesktopbbec5babdc6fb941^dbf946addc6fb941^---0#0#0#--913"Ld build/Debug/leafletDesktop.app/Contents/MacOS/leafletDesktop normal x86_64    cd /Users/peter/bin/System/PrintWebView/printWebView    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/peter/bin/System/PrintWebView/printWebView/build/Debug -F/Users/peter/bin/System/PrintWebView/printWebView/build/Debug -filelist /Users/peter/bin/System/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/Objects-normal/x86_64/leafletDesktop.LinkFileList -mmacosx-version-min=10.8 -fobjc-arc -fobjc-link-runtime -framework WebKit -framework CoreData -framework Cocoa -o /Users/peter/bin/System/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/MacOS/leafletDesktop36"D03CD61E-A5CD-4895-88D9-76599E3C40D9-
+
+CProcessInfoPlistFile "/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/Info.plist" printWebView/leafletDesktop-Info.plist
+s426331851.860994
+e426331851.909139
+r1
+xProcessInfoPlistFile
+x/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/Info.plist
+xprintWebView/leafletDesktop-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Process printWebView/leafletDesktop-Info.plistc87cdccb4e69b941^321cefcb4e69b941^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/peter/bin/Google%20Earth/PrintWebView/printWebView/printWebView/leafletDesktop-Info.plist0000000000000000^512"ProcessInfoPlistFile build/Debug/leafletDesktop.app/Contents/Info.plist printWebView/leafletDesktop-Info.plist    cd "/Users/peter/bin/Google Earth/PrintWebView/printWebView"    builtin-infoPlistUtility printWebView/leafletDesktop-Info.plist -genpkginfo "/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/Info.plist"36"0F69BAD8-DA17-4D4F-9540-8EFEF9FBAE51-
+
+CProcessInfoPlistFile /Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/Debug/leafletDesktop.app/Contents/Info.plist printWebView/leafletDesktop-Info.plist
+s426768350.526159
+e426768350.571579
+r1
+xProcessInfoPlistFile
+x/Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/Debug/leafletDesktop.app/Contents/Info.plist
+xprintWebView/leafletDesktop-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Process printWebView/leafletDesktop-Info.plistbbb58cdef76fb941^f0c098def76fb941^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/peter/bin/System/LeafletDesktop/leafletDesktop/printWebView/leafletDesktop-Info.plist0000000000000000^500"ProcessInfoPlistFile build/Debug/leafletDesktop.app/Contents/Info.plist printWebView/leafletDesktop-Info.plist    cd /Users/peter/bin/System/LeafletDesktop/leafletDesktop    builtin-infoPlistUtility printWebView/leafletDesktop-Info.plist -genpkginfo /Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/Debug/leafletDesktop.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/Debug/leafletDesktop.app/Contents/Info.plist36"5620DFA0-73F0-45CB-A43A-E232808BEBCF-
+
+CProcessInfoPlistFile /Users/peter/bin/System/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/Info.plist printWebView/leafletDesktop-Info.plist
+s426761384.891459
+e426761384.970170
+r1
+xProcessInfoPlistFile
+x/Users/peter/bin/System/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/Info.plist
+xprintWebView/leafletDesktop-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Process printWebView/leafletDesktop-Info.plist4a44e4a8dc6fb941^f65ef8a8dc6fb941^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/peter/bin/System/PrintWebView/printWebView/printWebView/leafletDesktop-Info.plist0000000000000000^488"ProcessInfoPlistFile build/Debug/leafletDesktop.app/Contents/Info.plist printWebView/leafletDesktop-Info.plist    cd /Users/peter/bin/System/PrintWebView/printWebView    builtin-infoPlistUtility printWebView/leafletDesktop-Info.plist -genpkginfo /Users/peter/bin/System/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/peter/bin/System/PrintWebView/printWebView/build/Debug/leafletDesktop.app/Contents/Info.plist36"762EBF73-9B23-4E35-932B-2D1EEC9B5D23-
+
+CProcessPCH /Users/peter/Library/Developer/Xcode/DerivedData/leafletDesktop-bmqduaodnilhwhckawlshswjlvqc/Index/PrecompiledHeaders/leafletDesktop-Prefix-empldgoomzsqrldqbrsgabbsffcc_ast/leafletDesktop-Prefix.pch.pth printWebView/leafletDesktop-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/peter/Library/Developer/Xcode/DerivedData/leafletDesktop-broejtvrucgyjbgixliddvcjepmp/Index/PrecompiledHeaders/leafletDesktop-Prefix-cqqdpwqkxuzofaguqyndzxxukksj_ast/leafletDesktop-Prefix.pch.pth printWebView/leafletDesktop-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/peter/Library/Developer/Xcode/DerivedData/leafletDesktop-broejtvrucgyjbgixliddvcjepmp/Index/PrecompiledHeaders/leafletDesktop-Prefix-hkcsjseyrxmgudbzetmfyswklzqm_ast/leafletDesktop-Prefix.pch.pth printWebView/leafletDesktop-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/peter/Library/Developer/Xcode/DerivedData/leafletDesktop-bvwmzgpcbuupglcjcnlutkkbwlkf/Index/PrecompiledHeaders/leafletDesktop-Prefix-eozqtldwbdpepgbitwuxttdyyyhw_ast/leafletDesktop-Prefix.pch.pth printWebView/leafletDesktop-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/leafletDesktop-Prefix-ckbogwjxyuzntpftballkmvlmmwn/leafletDesktop-Prefix.pch.pth printWebView/leafletDesktop-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426331547.457818
+e426331548.661918
+r1
+xProcessPCH
+x/var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/leafletDesktop-Prefix-ckbogwjxyuzntpftballkmvlmmwn/leafletDesktop-Prefix.pch.pth
+xprintWebView/leafletDesktop-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Precompile printWebView/leafletDesktop-Prefix.pch0e4d759b4d69b941^1476a99c4d69b941^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/peter/bin/Google%20Earth/PrintWebView/printWebView/printWebView/leafletDesktop-Prefix.pch0000000000000000^3519"ProcessPCH /var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/leafletDesktop-Prefix-ckbogwjxyuzntpftballkmvlmmwn/leafletDesktop-Prefix.pch.pth printWebView/leafletDesktop-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/peter/bin/Google Earth/PrintWebView/printWebView"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/leafletDesktop-generated-files.hmap" "-I/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/leafletDesktop-own-target-headers.hmap" "-I/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/leafletDesktop-all-target-headers.hmap" -iquote "/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/leafletDesktop-project-headers.hmap" "-I/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/DerivedSources/x86_64" "-I/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/DerivedSources" "-F/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/Debug" --serialize-diagnostics /var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/leafletDesktop-Prefix-ckbogwjxyuzntpftballkmvlmmwn/leafletDesktop-Prefix.pch.dia -c "/Users/peter/bin/Google Earth/PrintWebView/printWebView/printWebView/leafletDesktop-Prefix.pch" -o /var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/leafletDesktop-Prefix-ckbogwjxyuzntpftballkmvlmmwn/leafletDesktop-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/leafletDesktop-Prefix-ckbogwjxyuzntpftballkmvlmmwn/leafletDesktop-Prefix.pch.d36"A868FB3C-B269-4EA0-8E0B-D338F5D3EB6D-
+
+CProcessPCH /var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/leafletDesktop-Prefix-cnmhzszlckowbybkcekzmojuooqx/leafletDesktop-Prefix.pch.pth printWebView/leafletDesktop-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426339157.145752
+e426339158.298590
+r1
+xProcessPCH
+x/var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/leafletDesktop-Prefix-cnmhzszlckowbybkcekzmojuooqx/leafletDesktop-Prefix.pch.pth
+xprintWebView/leafletDesktop-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Precompile printWebView/leafletDesktop-Prefix.pch2a1b26556b69b941^f58568566b69b941^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/peter/bin/System/PrintWebView/printWebView/printWebView/leafletDesktop-Prefix.pch0000000000000000^3439"ProcessPCH /var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/leafletDesktop-Prefix-cnmhzszlckowbybkcekzmojuooqx/leafletDesktop-Prefix.pch.pth printWebView/leafletDesktop-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/peter/bin/System/PrintWebView/printWebView    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/peter/bin/System/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/leafletDesktop-generated-files.hmap -I/Users/peter/bin/System/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/leafletDesktop-own-target-headers.hmap -I/Users/peter/bin/System/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/leafletDesktop-all-target-headers.hmap -iquote /Users/peter/bin/System/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/leafletDesktop-project-headers.hmap -I/Users/peter/bin/System/PrintWebView/printWebView/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/peter/bin/System/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/DerivedSources/x86_64 -I/Users/peter/bin/System/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/DerivedSources -F/Users/peter/bin/System/PrintWebView/printWebView/build/Debug --serialize-diagnostics /var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/leafletDesktop-Prefix-cnmhzszlckowbybkcekzmojuooqx/leafletDesktop-Prefix.pch.dia -c /Users/peter/bin/System/PrintWebView/printWebView/printWebView/leafletDesktop-Prefix.pch -o /var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/leafletDesktop-Prefix-cnmhzszlckowbybkcekzmojuooqx/leafletDesktop-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/leafletDesktop-Prefix-cnmhzszlckowbybkcekzmojuooqx/leafletDesktop-Prefix.pch.d36"D7E74078-DFE4-4471-BBCC-1EEEEB73D190-
+
+CProcessPCH /var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/leafletDesktop-Prefix-dozokksmcpckmnfwtpbpkjippdfn/leafletDesktop-Prefix.pch.pth printWebView/leafletDesktop-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426768350.579884
+e426768351.917786
+r1
+xProcessPCH
+x/var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/leafletDesktop-Prefix-dozokksmcpckmnfwtpbpkjippdfn/leafletDesktop-Prefix.pch.pth
+xprintWebView/leafletDesktop-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Precompile printWebView/leafletDesktop-Prefix.pchb6ba94def76fb941^77f5eadff76fb941^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/peter/bin/System/LeafletDesktop/leafletDesktop/printWebView/leafletDesktop-Prefix.pch0000000000000000^3479"ProcessPCH /var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/leafletDesktop-Prefix-dozokksmcpckmnfwtpbpkjippdfn/leafletDesktop-Prefix.pch.pth printWebView/leafletDesktop-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/peter/bin/System/LeafletDesktop/leafletDesktop    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/leafletDesktop.build/Debug/leafletDesktop.build/leafletDesktop-generated-files.hmap -I/Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/leafletDesktop.build/Debug/leafletDesktop.build/leafletDesktop-own-target-headers.hmap -I/Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/leafletDesktop.build/Debug/leafletDesktop.build/leafletDesktop-all-target-headers.hmap -iquote /Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/leafletDesktop.build/Debug/leafletDesktop.build/leafletDesktop-project-headers.hmap -I/Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/leafletDesktop.build/Debug/leafletDesktop.build/DerivedSources/x86_64 -I/Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/leafletDesktop.build/Debug/leafletDesktop.build/DerivedSources -F/Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/Debug --serialize-diagnostics /var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/leafletDesktop-Prefix-dozokksmcpckmnfwtpbpkjippdfn/leafletDesktop-Prefix.pch.dia -c /Users/peter/bin/System/LeafletDesktop/leafletDesktop/printWebView/leafletDesktop-Prefix.pch -o /var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/leafletDesktop-Prefix-dozokksmcpckmnfwtpbpkjippdfn/leafletDesktop-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/leafletDesktop-Prefix-dozokksmcpckmnfwtpbpkjippdfn/leafletDesktop-Prefix.pch.d36"CF3168F3-A19D-4F8E-9EC6-F914F16ADBBE-
+
+CProcessPCH /var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/leafletDesktop-Prefix-gswmgylvqjmcjgblvjalozzgywfe/leafletDesktop-Prefix.pch.pth printWebView/leafletDesktop-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426749735.219807
+e426749737.724875
+r1
+xProcessPCH
+x/var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/leafletDesktop-Prefix-gswmgylvqjmcjgblvjalozzgywfe/leafletDesktop-Prefix.pch.pth
+xprintWebView/leafletDesktop-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Precompile printWebView/leafletDesktop-Prefix.pchce8a3827af6fb941^d593b929af6fb941^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/peter/bin/System/PrintWebView/printWebView/printWebView/leafletDesktop-Prefix.pch0000000000000000^3439"ProcessPCH /var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/leafletDesktop-Prefix-gswmgylvqjmcjgblvjalozzgywfe/leafletDesktop-Prefix.pch.pth printWebView/leafletDesktop-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/peter/bin/System/PrintWebView/printWebView    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/peter/bin/System/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/leafletDesktop-generated-files.hmap -I/Users/peter/bin/System/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/leafletDesktop-own-target-headers.hmap -I/Users/peter/bin/System/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/leafletDesktop-all-target-headers.hmap -iquote /Users/peter/bin/System/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/leafletDesktop-project-headers.hmap -I/Users/peter/bin/System/PrintWebView/printWebView/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/peter/bin/System/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/DerivedSources/x86_64 -I/Users/peter/bin/System/PrintWebView/printWebView/build/leafletDesktop.build/Debug/leafletDesktop.build/DerivedSources -F/Users/peter/bin/System/PrintWebView/printWebView/build/Debug --serialize-diagnostics /var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/leafletDesktop-Prefix-gswmgylvqjmcjgblvjalozzgywfe/leafletDesktop-Prefix.pch.dia -c /Users/peter/bin/System/PrintWebView/printWebView/printWebView/leafletDesktop-Prefix.pch -o /var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/leafletDesktop-Prefix-gswmgylvqjmcjgblvjalozzgywfe/leafletDesktop-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/leafletDesktop-Prefix-gswmgylvqjmcjgblvjalozzgywfe/leafletDesktop-Prefix.pch.d36"CE98E568-B66C-45FA-9DF3-AF2AAB246769-
+
+CTouch "/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/Debug/leafletDesktop.app"
+s426339008.404610
+e426339008.449053
+r1
+xTouch
+x/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/Debug/leafletDesktop.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Touch /Users/peter/bin/Google Earth/PrintWebView/printWebView/build/Debug/leafletDesktop.appe4a167c06a69b941^0ef672c06a69b941^---0#0#0#--213"Touch build/Debug/leafletDesktop.app    cd "/Users/peter/bin/Google Earth/PrintWebView/printWebView"    /usr/bin/touch -c "/Users/peter/bin/Google Earth/PrintWebView/printWebView/build/Debug/leafletDesktop.app"36"8E9A2C2D-F31F-41ED-BFA6-0ACC6CA20BE3-
+
+CTouch /Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/Debug/leafletDesktop.app
+s426768353.412353
+e426768353.489406
+r1
+xTouch
+x/Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/Debug/leafletDesktop.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Touch /Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/Debug/leafletDesktop.appeca569e1f76fb941^904a7de1f76fb941^---0#0#0#--205"Touch build/Debug/leafletDesktop.app    cd /Users/peter/bin/System/LeafletDesktop/leafletDesktop    /usr/bin/touch -c /Users/peter/bin/System/LeafletDesktop/leafletDesktop/build/Debug/leafletDesktop.app36"BC46C18F-1E73-452F-BB4E-981A8D48156A-
+
+CTouch /Users/peter/bin/System/PrintWebView/printWebView/build/Debug/leafletDesktop.app
+s426761390.664852
+e426761390.820551
+r1
+xTouch
+x/Users/peter/bin/System/PrintWebView/printWebView/build/Debug/leafletDesktop.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Touch /Users/peter/bin/System/PrintWebView/printWebView/build/Debug/leafletDesktop.app6440aaaedc6fb941^bf10d2aedc6fb941^---0#0#0#--197"Touch build/Debug/leafletDesktop.app    cd /Users/peter/bin/System/PrintWebView/printWebView    /usr/bin/touch -c /Users/peter/bin/System/PrintWebView/printWebView/build/Debug/leafletDesktop.app36"46CA763C-887A-43A8-84D0-0FDA782AAA70-
+
