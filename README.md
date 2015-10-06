@@ -1,4 +1,11 @@
+#LeafletDesktop
+
+https://raw.githubusercontent.com/peterburk/leafletDesktop/master/LeafletDesktopIcon.png
+
 LeafletDesktop is a free, open-source equivalent to EarthDesk, Blue Planet, or OSXplanet.
+
+Download it here:
+https://raw.githubusercontent.com/peterburk/leafletDesktop/master/LeafletDesktop.zip
 
 
 It uses Leaflet, a popular JavaScript mapping tool. The app loads an HTML page in a hidden window, saves it as an image, and sets the desktop picture.
@@ -37,4 +44,4 @@ Add the wrapper headers and footers from the original World3GMaps.js file, chang
 ### How do I change the Cocoa source code to load a different website/save an image but not set the desktop/etc?
 
 For that, you’ll need the Cocoa source as an Xcode project. Download it here:
-Source.zip
+https://raw.githubusercontent.com/peterburk/leafletDesktop/master/Source.zip
