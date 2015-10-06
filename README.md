@@ -1,6 +1,6 @@
 #LeafletDesktop
 
-https://raw.githubusercontent.com/peterburk/leafletDesktop/master/LeafletDesktopIcon.png
+<img class="aligncenter" alt="LeafletDesktop Logo" src="https://raw.githubusercontent.com/peterburk/leafletDesktop/master/LeafletDesktopIcon.png" width="128">
 
 LeafletDesktop is a free, open-source equivalent to EarthDesk, Blue Planet, or OSXplanet.
 
